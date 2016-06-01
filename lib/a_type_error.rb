@@ -1,3 +1,3 @@
 1 + 1
 
-1 + "is the loneliest number"
+puts "is just as sad as one"
