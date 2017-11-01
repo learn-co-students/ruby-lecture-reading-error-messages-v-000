@@ -1,3 +1,5 @@
-"hello world"
+puts "hello world"
 
-hello_world
+def method_name
+hello_world  
+end
