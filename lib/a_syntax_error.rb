@@ -1,3 +1,9 @@
-x = 1
+def method_name1
+  x = 1
+  p x
+end
 
-x = 
+def method
+  x = 3
+  p x
+end
