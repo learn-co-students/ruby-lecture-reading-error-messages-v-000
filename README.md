@@ -29,31 +29,7 @@ lib/a_name_error.rb:3:in `<main>': undefined local variable or method `hello_wor
 
 1) The location of the error, the "where".
 
-```
-lib/a_name_error.rb:3:in `<main>':
-```
-
-* `lib/a_name_error.rb` is the file the error occurred in.
-* `3` is the line of code with the error.
-* `<main>` is the scope of the error.
-
-2) The description, the "why".
-
-```
-undefined local variable or method `hello_world' for main:Object
-```
-
-The interpreter does the best job it can to tell you what it thinks went wrong.
-
-3) The type of error, the "who".
-
-```
-(NameError)
-```
-
-This is a [Ruby Error Type](http://www.ruby-doc.org/core-2.2.0/Exception.html).
-
-You've solved games of *Clue* with less information. This is one of the best parts of programming: debugging and fixing errors. It's like you're a detective solving a crime. The only bad thing is that more often than not, you're also the criminal that caused the error in the first place.
+```learn of programming: debugging and fixing errors. It's like you're a detective solving a crime. The only bad thing is that more often than not, you're also the criminal that caused the error in the first place.
 
 Errors are clues, and reading them is the interpreter telling you what to do to fix the program and move on.
 
@@ -112,8 +88,7 @@ Did you watch it? Okay, great. Let's proceed. The point of this lab is to get yo
   * Read the errors. Scroll through the entire output to get a sense of what the failures are trying to tell you. What does ``expected no Exception, got #<NameError: undefined local variable or method `hello_world' for main:Object> with backtrace`` mean? How can we fix it?
 
   * Each error prints out a **stack trace**, which points to where the code failed and attempts to follow it _up the stack_ — that is, through the bits of code that ran leading up to the failure. You can use these stack traces to pinpoint which line(s) of code need your attention.
-
-  * These stack traces can also point you to which files you should run to get a better sense of the errors. Which leads us to step 3:
+le errors. Which leads us to step 3:
 
 3. Run each of the files in the `lib` directory using the `ruby` command.
 
