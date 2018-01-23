@@ -1,3 +1,2 @@
-"hello world"
-
-hello_world
+puts "hello world"
+puts "how you doin?"
