@@ -1,3 +1,3 @@
-"hello world"
+prints "hello world"
 
-hello_world
+prints "hello world"
