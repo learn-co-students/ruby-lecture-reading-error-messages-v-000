@@ -1,3 +1,2 @@
-x = 1
-
-x = 
+"SyntaxError"
+"raises a Syntax"
