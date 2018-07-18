@@ -1,3 +1,10 @@
-1 + 1
+def loneliest_1 
+  "1 is the loneliest number"  
+  end 
 
-1 + "is the loneliest number"
+def  not_lonely_2
+  "1+1 = 2 no longer lonely"
+  end
+
+puts loneliest_1
+puts not_lonely_2
