@@ -1,3 +1,2 @@
-"hello world"
-
-hello_world
+print "hello world!"
+puts "hello world!"
