@@ -1,3 +1,3 @@
 42 / 6
 
-42 / 0
+puts "42 / 0 would have caused a division by zero error"
