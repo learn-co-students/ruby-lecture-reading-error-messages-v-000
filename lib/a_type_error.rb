@@ -1,3 +1,7 @@
-1 + 1
+1 + 1;
 
-1 + "is the loneliest number"
+1 + 5;
+
+one = "one " + "is the loneliest number";
+
+puts one;
