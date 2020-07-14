@@ -1,3 +1,3 @@
-"hello world"
+life = 'hello world'
 
-hello_world
+tester = 'hello_world'
