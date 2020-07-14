@@ -1,3 +1,5 @@
-1 + 1
-
-1 + "is the loneliest number"
+class Fixnum
+  def exception
+    RuntimeError.new("I'm number: #{ self }")
+  end
+end
