@@ -1,3 +1,5 @@
 1 + 1
 
-1 + "is the loneliest number"
+string = " is the lonliest number"
+
+puts "1" + string
