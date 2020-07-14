@@ -1,3 +1,2 @@
-"hello world"
-
-hello_world
+"NameError"
+"raises a NameError when ecncountering undefined barewords"
